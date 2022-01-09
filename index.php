@@ -365,7 +365,7 @@
             <div class="row">
                 <div class="col-lg-5 contact-col5">
                     <div class="heading">
-                        <h2 data-wow-duration="1.5s" data-wow-delay="0.3s" class="wow animate__animated animate__fadeInLeft" style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.3s; animation-name: none;">Contact Us</h2>
+                        <h2 data-wow-duration="1.5s" data-wow-delay="0.3s" class="wow animate__animated animate__fadeInLeft" style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.3s; animation-name: none;">Contato</h2>
                     </div>
                     <div class="contact-us">
                         <ul>
