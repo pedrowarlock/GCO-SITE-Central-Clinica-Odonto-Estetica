@@ -150,7 +150,7 @@
                             </li> -->
                             <!-- <li class="about-btn">
                                 <a href="#">Ver todos</a>
-                            </li> -->
+                            </li> --> 
                         </ul>
                     </div>
 
