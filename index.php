@@ -13,11 +13,9 @@
     <!-- Reset CSS -->
    
     <!-- bootstrap css -->
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./plugins/bootstrap4/css/bootstrap.min.css">
     <!-- Fontawesome all css -->
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <!-- <link rel="stylesheet" href="./css/all.min.css"> -->
+    <link rel="stylesheet" href="./plugins/fontawesome/css/all.min.css">
     <!-- magnific-popup css -->
     <link rel="stylesheet" href="./css/magnific-popup.css">
     <!-- slicknav css -->
@@ -137,19 +135,19 @@
                                 </div>
                             </li>
                             <li>
-                                <img src="./images/doctor6.png" alt="doctor6">
+                                <img src="./images/dragab.jpg" alt="doctor6">
                                 <div class="doctor-details">
-                                    <h5>Dr. Qualquer </h5>
-                                    <span>Implantodontia</span>
+                                    <h5>Dra. Ana Gabriela </h5>
+                                    <span>Cirurgiã</span>
                                 </div>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <img src="./images/doctor7.png" alt="doctor7">
                                 <div class="doctor-details">
                                     <h5>Dr. Qualquer </h5>
                                     <span>Dentística</span>
                                 </div>
-                            </li>
+                            </li> -->
                             <!-- <li class="about-btn">
                                 <a href="#">Ver todos</a>
                             </li> -->
@@ -177,22 +175,22 @@
                         <div data-wow-duration="2s" data-wow-delay="0.4s" class="single-choose-item wow animate__animated animate__fadeInRight" style="visibility: hidden; animation-duration: 2s; animation-delay: 0.4s; animation-name: none;">
                             <span>1</span>
                             <div class="choose-details">
-                                <h4>Mais de 15 anos de experiência</h4>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia repellat dolore delectus.</p>
+                                <h4>Preços acessíveis</h4>
+                                <p>Acessibilidade total e serviço de total qualidade.</p>
                             </div>
                         </div>
                         <div data-wow-duration="2s" data-wow-delay="0.5s" class="single-choose-item wow animate__animated animate__fadeInRight" style="visibility: hidden; animation-duration: 2s; animation-delay: 0.5s; animation-name: none;">
                             <span>2</span>
                             <div class="choose-details">
-                                <h4>Médicos altamente experientes</h4>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia repellat dolore delectus.</p>
+                                <h4>Dentistas experientes</h4>
+                                <p>Profissionais qualificados para lhe proporcionar o total conforto no atendimento.</p>
                             </div>
                         </div>
                         <div data-wow-duration="2s" data-wow-delay="0.6s" class="single-choose-item wow animate__animated animate__fadeInRight" style="visibility: hidden; animation-duration: 2s; animation-delay: 0.6s; animation-name: none;">
                             <span>3</span>
                             <div class="choose-details">
                                 <h4>Suporte de Emergência 7/24h</h4>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia repellat dolore delectus.</p>
+                                <p>Atendimento 24 horas e o total suporte de emergência.</p>
                             </div>
                         </div>
                     </div>
@@ -513,7 +511,7 @@
     <!-- jquery js -->
     <script src="./js/jquery-2.2.4.min.js"></script>
     <!-- bootstrap js -->
-    <script src="./js/bootstrap.min.js"></script>
+    <script src="./plugins/bootstrap4/js/bootstrap.min.js"></script>
     <!-- popper js -->
     <script src="./js/popper.min.js"></script>
     <!-- Sticky js -->
