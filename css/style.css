@@ -30,8 +30,13 @@ Version      : 1.0
 
 /* 00 ----------------common css Start-------------------*/
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
 :root {
     --default-theme-bg-color: #C58D8C;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
 .loader {
@@ -58,7 +63,7 @@ Version      : 1.0
 .loader .loader-icon span {
     display: block;
     font-size: 18px;
-    font-family: 'Orkney' !important;
+    font-family: 'Roboto', sans-serif !important;
 }
 
 .loader .loader-icon i {
@@ -101,7 +106,7 @@ Version      : 1.0
 }
 
 @font-face {
-    font-family: 'Orkney';
+    font-family: 'Roboto', sans-serif;
     src: url('../fonts/Orkney/Orkney-Bold.eot');
     src: url('../fonts/Orkney/Orkney-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Orkney/Orkney-Bold.otf') format('woff2'), url('../fonts/Orkney/Orkney-Bold.woff') format('woff'), url('../fonts/Orkney/Orkney-Bold.ttf') format('truetype'), url('../fonts/Orkney/Orkney-Bold.svg#Orkney-Bold') format('svg');
     font-weight: bold;
@@ -110,7 +115,7 @@ Version      : 1.0
 }
 
 @font-face {
-    font-family: 'Orkney';
+    font-family: 'Roboto', sans-serif;
     src: url('../fonts/Orkney/Orkney-Medium.eot');
     src: url('../fonts/Orkney/Orkney-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/Orkney/Orkney-Medium.otf') format('woff2'), url('../fonts/Orkney/Orkney-Medium.woff') format('woff'), url('../fonts/Orkney/Orkney-Medium.ttf') format('truetype'), url('../fonts/Orkney/Orkney-Medium.svg#Orkney-Medium') format('svg');
     font-weight: 500;
@@ -119,7 +124,7 @@ Version      : 1.0
 }
 
 @font-face {
-    font-family: 'Orkney';
+    font-family: 'Roboto', sans-serif;
     src: url('../fonts/Orkney/Orkney-Regular.eot');
     src: url('../fonts/Orkney/Orkney-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Orkney/Orkney-Regular.otf') format('woff2'), url('../fonts/Orkney/Orkney-Regular.woff') format('woff'), url('../fonts/Orkney/Orkney-Regular.ttf') format('truetype'), url('../fonts/Orkney/Orkney-Regular.svg#Orkney-Regular') format('svg');
     font-weight: normal;
@@ -165,7 +170,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Orkney';
+    font-family: 'Roboto', sans-serif;
     color: var(--default-theme-bg-color);
     line-height: 1.6;
     font-weight: 700;
@@ -260,10 +265,11 @@ ul {
 
 .btn1 {
     overflow: hidden;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#87c150), color-stop(#74c067), color-stop(#64bf7b), color-stop(#5bbc8c), color-stop(#59b89a), color-stop(#4cb7a6), color-stop(#44b5b0), color-stop(#42b2b9), color-stop(#24b1c9), color-stop(#02afd8), color-stop(#1babe6), to(#44a6f0));
+    background-image: linear-gradient(180deg, rgba(176, 99, 168, 1) 1%, rgba(173, 18, 170, 1) 50%, rgba(224, 17, 132, 1) 100%);
+    /* background-image: -webkit-gradient(linear, left top, left bottom, from(#87c150), color-stop(#74c067), color-stop(#64bf7b), color-stop(#5bbc8c), color-stop(#59b89a), color-stop(#4cb7a6), color-stop(#44b5b0), color-stop(#42b2b9), color-stop(#24b1c9), color-stop(#02afd8), color-stop(#1babe6), to(#44a6f0));
     background-image: -webkit-linear-gradient(top, #87c150, #74c067, #64bf7b, #5bbc8c, #59b89a, #4cb7a6, #44b5b0, #42b2b9, #24b1c9, #02afd8, #1babe6, #44a6f0);
     background-image: -o-linear-gradient(top, #87c150, #74c067, #64bf7b, #5bbc8c, #59b89a, #4cb7a6, #44b5b0, #42b2b9, #24b1c9, #02afd8, #1babe6, #44a6f0);
-    background-image: linear-gradient(to bottom, #87c150, #74c067, #64bf7b, #5bbc8c, #59b89a, #4cb7a6, #44b5b0, #42b2b9, #24b1c9, #02afd8, #1babe6, #44a6f0);
+    background-image: linear-gradient(to bottom, #87c150, #74c067, #64bf7b, #5bbc8c, #59b89a, #4cb7a6, #44b5b0, #42b2b9, #24b1c9, #02afd8, #1babe6, #44a6f0); */
     color: #fff;
     font-size: 16px;
     font-weight: 500;
@@ -271,7 +277,7 @@ ul {
     text-transform: capitalize;
     padding: 14px 31px;
     padding-bottom: 12px;
-    font-family: 'Orkney';
+    font-family: 'Roboto', sans-serif;
     display: inline-block;
     -webkit-border-radius: 0px 15px 15px 15px;
     border-radius: 0px 15px 15px 15px;
@@ -385,6 +391,7 @@ div#sticky-wrapper {
     background-image: -webkit-linear-gradient(right, #87c150, #74c067, #64bf7b, #5bbc8c, #59b89a, #4cb7a6, #44b5b0, #42b2b9, #24b1c9, #02afd8, #1babe6, #44a6f0);
     background-image: -o-linear-gradient(right, #87c150, #74c067, #64bf7b, #5bbc8c, #59b89a, #4cb7a6, #44b5b0, #42b2b9, #24b1c9, #02afd8, #1babe6, #44a6f0);
     background-image: linear-gradient(to left, #87c150, #74c067, #64bf7b, #5bbc8c, #59b89a, #4cb7a6, #44b5b0, #42b2b9, #24b1c9, #02afd8, #1babe6, #44a6f0);
+    background-image: linear-gradient(180deg, rgb(235, 34, 144) 1%, rgb(228, 13, 138) 50%, rgb(224, 17, 214) 100%);
 }
 
 .is-sticky .header-area .main-menu ul li ul {
@@ -497,7 +504,7 @@ header.header-area .main-menu ul li a {
     -webkit-transition: .5s all;
     -o-transition: .5s all;
     transition: .5s all;
-    font-family: 'Orkney';
+    font-family: 'Roboto', sans-serif;
     position: relative;
     z-index: 1;
 }
@@ -783,10 +790,10 @@ section.hero-area .hero-content .hero-btn ul li a i {
     color: #fff;
     width: 45px;
     height: 45px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#87c151), color-stop(#79c064), color-stop(#6dbe75), color-stop(#66bc84), color-stop(#63b990), color-stop(#54b89c), color-stop(#48b7a8), color-stop(#3fb5b2), color-stop(#0cb4c5), color-stop(#00b1d7), color-stop(#00ade6), to(#44a6f0));
+    /* background-image: -webkit-gradient(linear, left top, left bottom, from(#87c151), color-stop(#79c064), color-stop(#6dbe75), color-stop(#66bc84), color-stop(#63b990), color-stop(#54b89c), color-stop(#48b7a8), color-stop(#3fb5b2), color-stop(#0cb4c5), color-stop(#00b1d7), color-stop(#00ade6), to(#44a6f0));
     background-image: -webkit-linear-gradient(top, #87c151, #79c064, #6dbe75, #66bc84, #63b990, #54b89c, #48b7a8, #3fb5b2, #0cb4c5, #00b1d7, #00ade6, #44a6f0);
-    background-image: -o-linear-gradient(top, #87c151, #79c064, #6dbe75, #66bc84, #63b990, #54b89c, #48b7a8, #3fb5b2, #0cb4c5, #00b1d7, #00ade6, #44a6f0);
-    background-image: linear-gradient(to bottom, #87c151, #79c064, #6dbe75, #66bc84, #63b990, #54b89c, #48b7a8, #3fb5b2, #0cb4c5, #00b1d7, #00ade6, #44a6f0);
+    background-image: -o-linear-gradient(top, #87c151, #79c064, #6dbe75, #66bc84, #63b990, #54b89c, #48b7a8, #3fb5b2, #0cb4c5, #00b1d7, #00ade6, #44a6f0); */
+    background-image: linear-gradient(180deg, rgba(176, 99, 168, 1) 1%, rgba(173, 18, 170, 1) 50%, rgba(224, 17, 132, 1) 100%);
     -webkit-border-radius: 50%;
     border-radius: 50%;
     text-align: center;
@@ -940,7 +947,7 @@ section.about-area .about-details ul li a {
     color: var(--default-theme-bg-color);
     font-size: 16px;
     font-weight: 500;
-    font-family: 'Orkney';
+    font-family: 'Roboto', sans-serif;
     margin-bottom: 5px;
     -webkit-transition: .5s all;
     -o-transition: .5s all;
@@ -1033,7 +1040,7 @@ section.about-area .about-img ul li:last-child a {
     text-align: center;
     font-size: 16px;
     font-weight: 500;
-    font-family: 'Orkney';
+    font-family: 'Roboto', sans-serif;
     color: var(--default-theme-bg-color);
     text-decoration: underline;
     -webkit-transition: .3s all;
@@ -1062,12 +1069,17 @@ section.about-area .about-img ul li .doctor-details {
     padding-left: 80px;
 }
 
+.doctor-details {
+    text-align: center;
+}
+
 section.about-area .about-img ul li .doctor-details h5 {
     margin-bottom: 0;
     font-size: 20px;
     text-transform: capitalize;
     font-weight: 500;
     line-height: 1;
+    white-space: nowrap;
 }
 
 section.about-area .about-img ul li .doctor-details span {
@@ -1123,7 +1135,7 @@ section.choose-area .single-choose-item span {
     color: var(--default-theme-bg-color);
     opacity: .1;
     line-height: 1.1;
-    font-family: 'Orkney';
+    font-family: 'Roboto', sans-serif;
     position: absolute;
     left: 0;
     top: -5px;
@@ -1298,10 +1310,11 @@ section.laboratory-area .single-laboratory-item {
 section.laboratory-area .single-laboratory-item::before {
     position: absolute;
     content: "";
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#87c150), color-stop(#74c067), color-stop(#64bf7b), color-stop(#5bbc8c), color-stop(#59b89a), color-stop(#4cb7a6), color-stop(#44b5b0), color-stop(#42b2b9), color-stop(#24b1c9), color-stop(#02afd8), color-stop(#1babe6), to(#44a6f0));
+    /* background-image: -webkit-gradient(linear, left top, left bottom, from(#87c150), color-stop(#74c067), color-stop(#64bf7b), color-stop(#5bbc8c), color-stop(#59b89a), color-stop(#4cb7a6), color-stop(#44b5b0), color-stop(#42b2b9), color-stop(#24b1c9), color-stop(#02afd8), color-stop(#1babe6), to(#44a6f0));
     background-image: -webkit-linear-gradient(top, #87c150, #74c067, #64bf7b, #5bbc8c, #59b89a, #4cb7a6, #44b5b0, #42b2b9, #24b1c9, #02afd8, #1babe6, #44a6f0);
     background-image: -o-linear-gradient(top, #87c150, #74c067, #64bf7b, #5bbc8c, #59b89a, #4cb7a6, #44b5b0, #42b2b9, #24b1c9, #02afd8, #1babe6, #44a6f0);
-    background-image: linear-gradient(to bottom, #87c150, #74c067, #64bf7b, #5bbc8c, #59b89a, #4cb7a6, #44b5b0, #42b2b9, #24b1c9, #02afd8, #1babe6, #44a6f0);
+    background-image: linear-gradient(to bottom, #87c150, #74c067, #64bf7b, #5bbc8c, #59b89a, #4cb7a6, #44b5b0, #42b2b9, #24b1c9, #02afd8, #1babe6, #44a6f0); */
+    background-image: linear-gradient(180deg, rgba(176, 99, 168, 1) 1%, rgba(173, 18, 170, 1) 50%, rgba(224, 17, 132, 1) 100%);
     width: 100%;
     height: 0;
     left: 0;
@@ -1568,10 +1581,11 @@ section.department-area ul.nav-tabs .nav-link::before {
     content: "";
     width: 100%;
     height: 100%;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#87c151), color-stop(#79c064), color-stop(#6dbe75), color-stop(#66bc84), color-stop(#63b990), color-stop(#54b89c), color-stop(#48b7a8), color-stop(#3fb5b2), color-stop(#0cb4c5), color-stop(#00b1d7), color-stop(#00ade6), to(#44a6f0));
+    /* background-image: -webkit-gradient(linear, left top, left bottom, from(#87c151), color-stop(#79c064), color-stop(#6dbe75), color-stop(#66bc84), color-stop(#63b990), color-stop(#54b89c), color-stop(#48b7a8), color-stop(#3fb5b2), color-stop(#0cb4c5), color-stop(#00b1d7), color-stop(#00ade6), to(#44a6f0));
     background-image: -webkit-linear-gradient(top, #87c151, #79c064, #6dbe75, #66bc84, #63b990, #54b89c, #48b7a8, #3fb5b2, #0cb4c5, #00b1d7, #00ade6, #44a6f0);
     background-image: -o-linear-gradient(top, #87c151, #79c064, #6dbe75, #66bc84, #63b990, #54b89c, #48b7a8, #3fb5b2, #0cb4c5, #00b1d7, #00ade6, #44a6f0);
-    background-image: linear-gradient(to bottom, #87c151, #79c064, #6dbe75, #66bc84, #63b990, #54b89c, #48b7a8, #3fb5b2, #0cb4c5, #00b1d7, #00ade6, #44a6f0);
+    background-image: linear-gradient(to bottom, #87c151, #79c064, #6dbe75, #66bc84, #63b990, #54b89c, #48b7a8, #3fb5b2, #0cb4c5, #00b1d7, #00ade6, #44a6f0); */
+    background-image: linear-gradient(180deg, rgba(176, 99, 168, 1) 1%, rgba(173, 18, 170, 1) 50%, rgba(224, 17, 132, 1) 100%);
     left: 0;
     top: 0;
     z-index: -1;
@@ -1619,10 +1633,11 @@ section.department-area ul.nav-tabs .nav-link h4 {
 }
 
 section.department-area ul.nav-tabs .nav-link.active {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#87c151), color-stop(#79c064), color-stop(#6dbe75), color-stop(#66bc84), color-stop(#63b990), color-stop(#54b89c), color-stop(#48b7a8), color-stop(#3fb5b2), color-stop(#0cb4c5), color-stop(#00b1d7), color-stop(#00ade6), to(#44a6f0));
+    /* background-image: -webkit-gradient(linear, left top, left bottom, from(#87c151), color-stop(#79c064), color-stop(#6dbe75), color-stop(#66bc84), color-stop(#63b990), color-stop(#54b89c), color-stop(#48b7a8), color-stop(#3fb5b2), color-stop(#0cb4c5), color-stop(#00b1d7), color-stop(#00ade6), to(#44a6f0));
     background-image: -webkit-linear-gradient(top, #87c151, #79c064, #6dbe75, #66bc84, #63b990, #54b89c, #48b7a8, #3fb5b2, #0cb4c5, #00b1d7, #00ade6, #44a6f0);
     background-image: -o-linear-gradient(top, #87c151, #79c064, #6dbe75, #66bc84, #63b990, #54b89c, #48b7a8, #3fb5b2, #0cb4c5, #00b1d7, #00ade6, #44a6f0);
-    background-image: linear-gradient(to bottom, #87c151, #79c064, #6dbe75, #66bc84, #63b990, #54b89c, #48b7a8, #3fb5b2, #0cb4c5, #00b1d7, #00ade6, #44a6f0);
+    background-image: linear-gradient(to bottom, #87c151, #79c064, #6dbe75, #66bc84, #63b990, #54b89c, #48b7a8, #3fb5b2, #0cb4c5, #00b1d7, #00ade6, #44a6f0); */
+    background-image: linear-gradient(180deg, rgba(176, 99, 168, 1) 1%, rgba(173, 18, 170, 1) 50%, rgba(224, 17, 132, 1) 100%);
 }
 
 section.department-area ul.nav-tabs .nav-link.active h4 {
@@ -1804,10 +1819,11 @@ section.patients-area .single-patient-item {
 section.patients-area .single-patient-item::before {
     position: absolute;
     content: "";
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#87c150), color-stop(#74c067), color-stop(#64bf7b), color-stop(#5bbc8c), color-stop(#59b89a), color-stop(#4cb7a6), color-stop(#44b5b0), color-stop(#42b2b9), color-stop(#24b1c9), color-stop(#02afd8), color-stop(#1babe6), to(#44a6f0));
+    /* background-image: -webkit-gradient(linear, left top, left bottom, from(#87c150), color-stop(#74c067), color-stop(#64bf7b), color-stop(#5bbc8c), color-stop(#59b89a), color-stop(#4cb7a6), color-stop(#44b5b0), color-stop(#42b2b9), color-stop(#24b1c9), color-stop(#02afd8), color-stop(#1babe6), to(#44a6f0));
     background-image: -webkit-linear-gradient(top, #87c150, #74c067, #64bf7b, #5bbc8c, #59b89a, #4cb7a6, #44b5b0, #42b2b9, #24b1c9, #02afd8, #1babe6, #44a6f0);
     background-image: -o-linear-gradient(top, #87c150, #74c067, #64bf7b, #5bbc8c, #59b89a, #4cb7a6, #44b5b0, #42b2b9, #24b1c9, #02afd8, #1babe6, #44a6f0);
-    background-image: linear-gradient(to bottom, #87c150, #74c067, #64bf7b, #5bbc8c, #59b89a, #4cb7a6, #44b5b0, #42b2b9, #24b1c9, #02afd8, #1babe6, #44a6f0);
+    background-image: linear-gradient(to bottom, #87c150, #74c067, #64bf7b, #5bbc8c, #59b89a, #4cb7a6, #44b5b0, #42b2b9, #24b1c9, #02afd8, #1babe6, #44a6f0); */
+    background-image: linear-gradient(180deg, rgba(176, 99, 168, 1) 1%, rgba(173, 18, 170, 1) 50%, rgba(224, 17, 132, 1) 100%);
     -webkit-clip-path: polygon(0% 70%, 50% 55%, 100% 70%, 100% 100%, 0% 100%);
     clip-path: polygon(0% 70%, 50% 55%, 100% 70%, 100% 100%, 0% 100%);
     background-repeat: no-repeat;
@@ -1883,10 +1899,11 @@ section.patients-area .owl-dots {
 }
 
 section.patients-area .owl-dots button.owl-dot.active {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#87c150), color-stop(#79c063), color-stop(#6ebe73), color-stop(#66bc82), color-stop(#63b98e), color-stop(#54b89a), color-stop(#47b7a6), color-stop(#3eb5b1), color-stop(#05b4c4), color-stop(#00b1d6), color-stop(#00ade6), to(#44a6f0));
+    /* background-image: -webkit-gradient(linear, left top, left bottom, from(#87c150), color-stop(#79c063), color-stop(#6ebe73), color-stop(#66bc82), color-stop(#63b98e), color-stop(#54b89a), color-stop(#47b7a6), color-stop(#3eb5b1), color-stop(#05b4c4), color-stop(#00b1d6), color-stop(#00ade6), to(#44a6f0));
     background-image: -webkit-linear-gradient(top, #87c150, #79c063, #6ebe73, #66bc82, #63b98e, #54b89a, #47b7a6, #3eb5b1, #05b4c4, #00b1d6, #00ade6, #44a6f0);
     background-image: -o-linear-gradient(top, #87c150, #79c063, #6ebe73, #66bc82, #63b98e, #54b89a, #47b7a6, #3eb5b1, #05b4c4, #00b1d6, #00ade6, #44a6f0);
-    background-image: linear-gradient(to bottom, #87c150, #79c063, #6ebe73, #66bc82, #63b98e, #54b89a, #47b7a6, #3eb5b1, #05b4c4, #00b1d6, #00ade6, #44a6f0);
+    background-image: linear-gradient(to bottom, #87c150, #79c063, #6ebe73, #66bc82, #63b98e, #54b89a, #47b7a6, #3eb5b1, #05b4c4, #00b1d6, #00ade6, #44a6f0); */
+    background-image: linear-gradient(180deg, rgba(176, 99, 168, 1) 1%, rgba(173, 18, 170, 1) 50%, rgba(224, 17, 132, 1) 100%);
 }
 
 section.patients-area .owl-dots button.owl-dot {
@@ -2061,10 +2078,11 @@ section.subscribe-area form button {
     width: 100%;
     max-width: 200px;
     border: none;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#87c150), color-stop(#74c067), color-stop(#64bf7b), color-stop(#5bbc8c), color-stop(#59b89a), color-stop(#4cb7a6), color-stop(#44b5b0), color-stop(#42b2b9), color-stop(#24b1c9), color-stop(#02afd8), color-stop(#1babe6), to(#44a6f0));
+    /* background-image: -webkit-gradient(linear, left top, left bottom, from(#87c150), color-stop(#74c067), color-stop(#64bf7b), color-stop(#5bbc8c), color-stop(#59b89a), color-stop(#4cb7a6), color-stop(#44b5b0), color-stop(#42b2b9), color-stop(#24b1c9), color-stop(#02afd8), color-stop(#1babe6), to(#44a6f0));
     background-image: -webkit-linear-gradient(top, #87c150, #74c067, #64bf7b, #5bbc8c, #59b89a, #4cb7a6, #44b5b0, #42b2b9, #24b1c9, #02afd8, #1babe6, #44a6f0);
     background-image: -o-linear-gradient(top, #87c150, #74c067, #64bf7b, #5bbc8c, #59b89a, #4cb7a6, #44b5b0, #42b2b9, #24b1c9, #02afd8, #1babe6, #44a6f0);
-    background-image: linear-gradient(to bottom, #87c150, #74c067, #64bf7b, #5bbc8c, #59b89a, #4cb7a6, #44b5b0, #42b2b9, #24b1c9, #02afd8, #1babe6, #44a6f0);
+    background-image: linear-gradient(to bottom, #87c150, #74c067, #64bf7b, #5bbc8c, #59b89a, #4cb7a6, #44b5b0, #42b2b9, #24b1c9, #02afd8, #1babe6, #44a6f0); */
+    background-image: linear-gradient(180deg, rgba(176, 99, 168, 1) 1%, rgba(173, 18, 170, 1) 50%, rgba(224, 17, 132, 1) 100%);
     font-size: 18px;
     color: #fff;
     text-transform: capitalize;
@@ -2598,10 +2616,11 @@ footer.footer-area .bottomToup i {
     height: 50px;
     line-height: 1.7;
     text-align: center;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#87c150), color-stop(#83c058), color-stop(#7fbf60), color-stop(#7cbd67), color-stop(#79bc6e), color-stop(#72bb77), color-stop(#6dba7f), color-stop(#69b987), color-stop(#62b892), color-stop(#5eb69c), color-stop(#5db4a5), to(#61b2ab));
+    /* background-image: -webkit-gradient(linear, left top, left bottom, from(#87c150), color-stop(#83c058), color-stop(#7fbf60), color-stop(#7cbd67), color-stop(#79bc6e), color-stop(#72bb77), color-stop(#6dba7f), color-stop(#69b987), color-stop(#62b892), color-stop(#5eb69c), color-stop(#5db4a5), to(#61b2ab));
     background-image: -webkit-linear-gradient(top, #87c150, #83c058, #7fbf60, #7cbd67, #79bc6e, #72bb77, #6dba7f, #69b987, #62b892, #5eb69c, #5db4a5, #61b2ab);
     background-image: -o-linear-gradient(top, #87c150, #83c058, #7fbf60, #7cbd67, #79bc6e, #72bb77, #6dba7f, #69b987, #62b892, #5eb69c, #5db4a5, #61b2ab);
-    background-image: linear-gradient(to bottom, #87c150, #83c058, #7fbf60, #7cbd67, #79bc6e, #72bb77, #6dba7f, #69b987, #62b892, #5eb69c, #5db4a5, #61b2ab);
+    background-image: linear-gradient(to bottom, #87c150, #83c058, #7fbf60, #7cbd67, #79bc6e, #72bb77, #6dba7f, #69b987, #62b892, #5eb69c, #5db4a5, #61b2ab); */
+    background-image: linear-gradient(180deg, rgba(176, 99, 168, 1) 1%, rgba(173, 18, 170, 1) 50%, rgba(224, 17, 132, 1) 100%);
     -webkit-border-radius: 10px;
     border-radius: 10px;
     font-size: 26px;
@@ -2617,10 +2636,11 @@ footer.footer-area .bottomToup i {
 }
 
 footer.footer-area .bottomToup i:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#28477D));
+    /* background-image: -webkit-gradient(linear, left top, left bottom, from(#28477D));
     background-image: -webkit-linear-gradient(top, );
     background-image: -o-linear-gradient(top, #28477D);
-    background-image: linear-gradient(to bottom, #28477D);
+    background-image: linear-gradient(to bottom, #28477D); */
+    background-image: linear-gradient(180deg, rgba(176, 99, 168, 1) 1%, rgba(173, 18, 170, 1) 50%, rgba(224, 17, 132, 1) 100%);
 }
 
 footer.footer-area .active-top {
@@ -3059,7 +3079,7 @@ footer.footer-area .active-top {
         -o-transition: .3s all;
         transition: .3s all;
         text-transform: capitalize;
-        font-family: 'Orkney';
+        font-family: 'Roboto', sans-serif;
     }
     .slicknav_menu nav.slicknav_nav ul li a:hover {
         color: #fff;
@@ -4923,4 +4943,19 @@ footer.footer-area .active-top {
     section.service-area .service-content .service-title h2 {
         font-size: 22px;
     }
+}
+
+.map-google {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    height: 450px;
+}
+
+.g-map {
+    width: 100%;
+    height: 100%;
+    border: 0;
 }

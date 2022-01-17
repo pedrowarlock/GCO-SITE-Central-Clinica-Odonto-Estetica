@@ -11,7 +11,7 @@
     <link rel="icon" type="image/png" href="./images/header-logo.png">
     <!-- Favicon Icon End -->
     <!-- Reset CSS -->
-   
+
     <!-- bootstrap css -->
     <link rel="stylesheet" href="./plugins/bootstrap4/css/bootstrap.min.css">
     <!-- Fontawesome all css -->
@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="./css/animate.min.css">
     <!-- main css -->
     <link rel="stylesheet" href="./css/style.css">
-    
+
 
 </head>
 
@@ -42,7 +42,7 @@
 
     <!-- Header area start -->
     <div id="sticky-wrapper" class="sticky-wrapper" style="height: 86px;">
-        <header class="header-area" >
+        <header class="header-area">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-2 logo-col">
@@ -51,7 +51,7 @@
                                 <h2>
                                     <div style="display: flex;">
                                         <img src="./images/header-logo.png" alt="">
-                                        <i style="white-space: nowrap; margin-left:10px">Central Clínica</i>
+                                        <p style="white-space: nowrap; margin-left:10px">Central Clínica</p>
                                     </div>
                                 </h2>
                             </a>
@@ -80,9 +80,9 @@
             <div class="row">
                 <div class="col-lg-7 hero-col col-sm-12">
                     <div class="hero-content">
-                        <h1 class="" style="visibility: visible;">Lorem ipsume <span>Lorem ipsum !</span></h1>
-                        <p class="" style=" visibility: visible;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui explicabo nisi eum? Officia alias aliquam.</p>
-                        <div class="hero-btn" style="visibility: visible;">
+                        <h1 class="" style="visibility: visible;">Central Clínica <span style="white-space:nowrap">Odonto & Estética!</span></h1>
+                        <p class="" style=" visibility: visible;">Estamos com a total disposição para lhe proporcionar a melhor qualidade de serviço e os melhores profissionais do mercado.</p>
+                        <!-- <div class="hero-btn" style="visibility: visible;">
                             <ul>
                                 <li><a class="btn1" href="#">Serviços</a></li>
                                 <li>
@@ -91,10 +91,10 @@
                                     </a>
                                 </li>
                             </ul>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
-                
+
                 <div class="col-lg-5 hero-img" style="visibility: visible;">
                     <img src="./images/hero-img.webp" alt="hero-img">
                 </div>
@@ -110,7 +110,7 @@
                 <div class="col-lg-6 details-col">
                     <div class="about-details">
                         <h2 data-wow-duration="1.5s" data-wow-delay="0.3s" class="wow animate__animated animate__fadeInRight" style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.3s; animation-name: none;">Melhores profissionais <br>do mercado</h2>
-                        <p data-wow-duration="2s" data-wow-delay="0.3s" class="wow animate__animated animate__fadeInRight" style="visibility: hidden; animation-duration: 2s; animation-delay: 0.3s; animation-name: none;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore laudantium consectetur cupiditate, commodi at, alias nihil suscipit praesentium atque libero sit totam harum voluptatem repellat asperiores magni. Ducimus, iste pariatur.</p>
+                        <p data-wow-duration="2s" data-wow-delay="0.3s" class="wow animate__animated animate__fadeInRight" style="visibility: hidden; animation-duration: 2s; animation-delay: 0.3s; animation-name: none;">Excelência nos Tratamentos Atendimento Humanizado. Venha nos visitar! Agende uma avaliação. Atendemos diversos tipos de tratamentos odontológicos, transformando sorrisos.</p>
                         <ul>
                             <li data-wow-duration="2s" data-wow-delay="0.3s" class="wow animate__animated animate__fadeInRight" style="visibility: hidden; animation-duration: 2s; animation-delay: 0.3s; animation-name: none;"><i class="fas fa-location-arrow"></i><a href="#">Somos a melhor clínica da cidade</a></li>
                             <li data-wow-duration="2s" data-wow-delay="0.4s" class="wow animate__animated animate__fadeInRight" style="visibility: hidden; animation-duration: 2s; animation-delay: 0.4s; animation-name: none;"><i class="fas fa-location-arrow"></i><a href="#">Médicos altamente experientes</a></li>
@@ -118,14 +118,14 @@
                             <li data-wow-duration="2s" data-wow-delay="0.6s" class="wow animate__animated animate__fadeInRight" style="visibility: hidden; animation-duration: 2s; animation-delay: 0.6s; animation-name: none;"><i class="fas fa-location-arrow"></i><a href="#">Certificado ISO (ISO0000CLI)</a></li>
                         </ul>
                         <!-- <div data-wow-duration="2s" data-wow-delay="0.7s" class="about-btn wow animate__animated animate__fadeInRight" style="visibility: hidden; animation-duration: 2s; animation-delay: 0.7s; animation-name: none;"> -->
-                            <!-- <a href="#" class="btn1">Contratar</a> -->
+                        <!-- <a href="#" class="btn1">Contratar</a> -->
                         <!-- </div> -->
                     </div>
                 </div>
 
                 <div class="col-lg-6 img-col">
                     <div data-wow-duration="2s" data-wow-delay="0.3s" class="about-img wow animate__ animate__fadeInRight animated" style="visibility: visible; animation-duration: 2s; animation-delay: 0.3s; animation-name: fadeInRight;">
-                        <img src="./images/about-img4.jpg" class="foto-about-area">
+                        <img src="./images/c0111996-058d-4790-83fe-431bae874aa7.jpg" class="foto-about-area">
                         <ul>
                             <li>
                                 <img src="./images/doctor5.png" alt="doctor5">
@@ -141,6 +141,9 @@
                                     <span>Cirurgiã</span>
                                 </div>
                             </li>
+
+
+
                             <!-- <li>
                                 <img src="./images/doctor7.png" alt="doctor7">
                                 <div class="doctor-details">
@@ -150,7 +153,7 @@
                             </li> -->
                             <!-- <li class="about-btn">
                                 <a href="#">Ver todos</a>
-                            </li> --> 
+                            </li> -->
                         </ul>
                     </div>
 
@@ -201,7 +204,7 @@
     <!-- Choose area End -->
 
     <!-- laboratory area start -->
-    <section class="laboratory-area" id="laboratory-area">
+    <!-- <section class="laboratory-area" id="laboratory-area">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 laboratory-col5">
@@ -236,7 +239,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- laboratory area End -->
 
 
@@ -244,7 +247,7 @@
 
 
     <!-- Patients area start -->
-    <section class="patients-area" id="patients">
+    <!-- <section class="patients-area" id="patients">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 patient-col5">
@@ -353,7 +356,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Patients area End -->
 
 
@@ -378,19 +381,19 @@
                                 <i class="fas fa-phone-alt"></i>
                                 <div class="phone">
                                     <h4>Telefone:</h4>
-                                    <p><a href="tel:121234567">(21) 9999-9999</a></p>
+                                    <p><a href="tel:121234567">(21) 97283-4621</a></p>
                                 </div>
                             </li>
                             <li data-wow-duration="1.5s" data-wow-delay="0.5s" class="wow animate__animated animate__fadeInLeft" style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.5s; animation-name: none;">
                                 <i class="fas fa-envelope"></i>
                                 <div class="email">
                                     <h4>Email:</h4>
-                                    <p><a href="mailto:info@company.com">seilá@seila.com</a></p>
+                                    <p><a href="mailto:odonto@centralclinicaodonto.com.br">odonto@centralclinicaodonto.com.br</a></p>
                                 </div>
                             </li>
                         </ul>
                     </div>
-                    <div data-wow-duration="1.5s" data-wow-delay="0.3s" class="follow-us wow animate__animated animate__fadeInLeft" style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.3s; animation-name: none;">
+                    <!-- <div data-wow-duration="1.5s" data-wow-delay="0.3s" class="follow-us wow animate__animated animate__fadeInLeft" style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.3s; animation-name: none;">
                         <h4>Siga-nos nas redes sociais</h4>
                         <ul>
                             <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -398,14 +401,14 @@
                             <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                             <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                         </ul>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="col-lg-7 contact-col7">
                     <div class="form-title">
                         <h2 data-wow-duration="1s" data-wow-delay="0.3s" class="wow animate__animated animate__fadeInRight" style="visibility: hidden; animation-duration: 1s; animation-delay: 0.3s; animation-name: none;">Entrar em contato</h2>
                     </div>
                     <div class="form-wrapper">
-                        <form id="contact-form" class="atf-contact-form" method="POST" action="php/mail.php">
+                        <form id="contact-form" class="atf-contact-form" method="POST" action="./php/mail.php">
                             <div class="col-lg-6 col-md-6 col-sm-12 input-col6">
                                 <input data-wow-duration="1.5s" data-wow-delay="0.3s" class="wow animate__animated animate__fadeInRight" type="text" placeholder="Nome Completo*" id="name" name="name" required="" style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.3s; animation-name: none;">
                             </div>
@@ -418,7 +421,7 @@
                             <div class="col-lg-12 textarea-col12">
                                 <textarea data-wow-duration="1.5s" data-wow-delay="0.6s" class="wow animate__animated animate__fadeInRight" name="message" id="message" placeholder="Menssagem" style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.6s; animation-name: none;"></textarea>
                             </div>
-                            <button data-wow-duration="1.5s" data-wow-delay="0.7s" class="btn1 wow animate__animated animate__fadeInRight" type="submit" style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.7s; animation-name: none;">Enviar</button>
+                            <button name="BTEnvia" data-wow-duration="1.5s" data-wow-delay="0.7s" class="btn1 wow animate__animated animate__fadeInRight" type="submit" style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.7s; animation-name: none;">Enviar</button>
                         </form>
                         <p class="form-message"></p>
                     </div>
@@ -427,6 +430,9 @@
         </div>
     </section>
     <!-- contact area End -->
+    <div class="map-google">
+        <iframe class="g-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.425713937265!2d-43.1878057852898!3d-22.897663585016492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f44955be421%3A0x4c46ae5c54cc11b2!2sR.%20Sacadura%20Cabral%2C%20109%20-%20Sa%C3%BAde%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2020081-261!5e0!3m2!1spt-BR!2sbr!4v1642186171015!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy"></iframe>
+    </div>
 
     <!-- Footer area start -->
     <footer class="footer-area">
@@ -439,19 +445,18 @@
                                 <img src="./images/footer-logo.png" alt="footer-logo">
                             </a>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum molestiae ullam harum inventore ea quae esse debitis recusandae ducimus vero.</p>
+                        <p>
+                            Nossa clínica está no mercado de odontologia e tratamentos estético,
+                            nosso trabalho é lhe proporcionar a maior comodidade, tratamentos com a maior confiabilidade do mercado.
+                        </p>
                         <div class="footer-social">
                             <ul>
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="https://www.instagram.com/central_clinicaodontoestetica/"><i class="fab fa-instagram"></i></a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-6">
+                <!-- <div class="col-lg-2 col-md-6">
                     <div class="single-footer-item">
                         <div class="link title">
                             <h4>Links</h4>
@@ -462,20 +467,20 @@
                             </ul>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="col-lg-3 col-md-6">
                     <div class="single-footer-item">
                         <div class="contact title">
                             <h4>Contato</h4>
                             <ul>
-                                <li><a href="#"><i class="fas fa-envelope"></i>seila@seila.com</a></li>
-                                <li><a href="#"><i class="fas fa-phone-alt"></i>(21)9999-9999</a></li>
+                                <li><a href="#"><i class="fas fa-envelope"></i>odonto@centralclinicaodonto.com.br</a></li>
+                                <li><a href="#"><i class="fas fa-phone-alt"></i>(21)97283-4621</a></li>
                                 <li><a href="#"><i class="fas fa-map-marker-alt"></i>Rua Sacadura Cabral - 109<br>Rio de Janeiro - RJ</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <!-- <div class="col-lg-3 col-md-6">
                     <div class="single-footer-item">
                         <div class="faq title">
                             <h4>Receba nossas promoções</h4>
@@ -488,7 +493,7 @@
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="row">
                 <div class="col-lg-12">
@@ -496,8 +501,8 @@
                         <ul>
                             <li>Central Clínica | Odonto e estética - Todos os direitos reservados © 2021</li>
                             <li>Desenvolvido por <a href="https://github.com/pedrowarlock">Pedro Pinheiro</a></li>
-                            <li><a href="/gerenciador" target="_blank">Gerenciador <i class="fas fa-external-link-alt"></i></a></li>
-                            
+                            <li><a href="https://gerenciador.centralclinicaodonto.com.br/" target="_blank">Gerenciador <i class="fas fa-external-link-alt"></i></a></li>
+
                         </ul>
                     </div>
                 </div>
