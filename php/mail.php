@@ -67,7 +67,7 @@ try {
                         </tr>
                     </table>
                     <br><br><br><br><br><br>
-                    <strong> Erros, problemas em qualquer tipo de comunicação, por favor, entre em contato com o </strong>
+                    <strong> Erros ou problemas em qualquer tipo de comunicação, por favor, entre em contato com o </strong>
                     <a href='www.github.com/pedrowarlock'>Pedro Pinheiro.</a>";   
     
     $mail->send();
