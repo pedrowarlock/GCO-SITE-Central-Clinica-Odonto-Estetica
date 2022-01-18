@@ -416,10 +416,10 @@
                                 <input data-wow-duration="1.5s" data-wow-delay="0.4s" class="wow animate__animated animate__fadeInRight" type="email" id="email" name="email" placeholder="Endereço de e-mail válido*" required="" style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.4s; animation-name: none;">
                             </div>
                             <div class="col-lg-12 input-col12">
-                                <input data-wow-duration="1.5s" data-wow-delay="0.5s" class="wow animate__animated animate__fadeInRight" type="text" placeholder="Assunto*" id="subject" name="subject" required="" style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.5s; animation-name: none;">
+                                <input data-wow-duration="1.5s" data-wow-delay="0.5s" class="wow animate__animated animate__fadeInRight" type="text" placeholder="Assunto*" id="subject" name="assunto" required="" style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.5s; animation-name: none;">
                             </div>
                             <div class="col-lg-12 textarea-col12">
-                                <textarea data-wow-duration="1.5s" data-wow-delay="0.6s" class="wow animate__animated animate__fadeInRight" name="message" id="message" placeholder="Menssagem" style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.6s; animation-name: none;"></textarea>
+                                <textarea data-wow-duration="1.5s" data-wow-delay="0.6s" class="wow animate__animated animate__fadeInRight" name="menssagem" id="message" placeholder="Menssagem" style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.6s; animation-name: none;"></textarea>
                             </div>
                             <button name="BTEnvia" data-wow-duration="1.5s" data-wow-delay="0.7s" class="btn1 wow animate__animated animate__fadeInRight" type="submit" style="visibility: hidden; animation-duration: 1.5s; animation-delay: 0.7s; animation-name: none;">Enviar</button>
                         </form>
