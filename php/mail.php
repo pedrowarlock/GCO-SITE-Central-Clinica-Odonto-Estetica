@@ -14,7 +14,7 @@ $mensagem     = $_POST['menssagem'];
 
 
 $email_local = 'odonto@centralclinicaodonto.com.br';
-$senha_local = '32932485';
+$senha_local = '';
 $host_local  = 'smtp.titan.email';
 $porta_local = '465';
 
