@@ -18,6 +18,7 @@ $senha_local = '32932485';
 $host_local  = 'smtp.titan.email';
 $porta_local = '465';
 
+
 //Create an instance; passing `true` enables exceptions
 $mail = new PHPMailer(true);
 $mail->CharSet = "UTF-8";
